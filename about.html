@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Queed</title>
+	<link rel="icon" href="img/favicon.svg" type="image/svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css?v=52">
+</head>
+<body class="light-white">
+    <header class='header'>
+		<div class="container">
+			<a href="/">
+				<img src="img/logo.svg" alt="logo" class="header__logo">
+			</a>
+            <div class="header__wrapper">
+                <ul class="menu">
+                    <li class="menu__item"><a href="about.html">About</a></li>
+                    <li class="menu__item"><a href="tech.html">Technology</a></li>
+                    <li class="menu__item"><a href="#">Story & Mission</a></li>
+                    <li class="menu__item"><a href="#">Contact</a></li>
+                </ul>
+                <div class="language language--desktop">
+                    <button class="language__btn">English</button>
+                    <div class="language__dropdown">
+                        <div class="language__wrapper">
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">English</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">Arabic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<img src="img/burger.svg" alt="burger" onclick="menuMove()" class="header__burger">
+			<div class="menu-mob">
+				<div class="menu-mob__top">
+					<a href="/">
+						<img src="img/logo.svg" alt="logo" class="menu-mob__logo">
+					</a>
+					<img src="img/close.svg" alt="logo" class="menu-mob__close" onclick="menuMove()">
+				</div>
+				<ul class="menu-mob__menu">
+					<li class="menu-mob__item"><a href="about.html">About</a></li>
+					<li class="menu-mob__item"><a href="tech.html">Technology</a></li>
+					<li class="menu-mob__item"><a href="#">Story & Mission</a></li>
+					<li class="menu-mob__item"><a href="#">Contact</a></li>
+				</ul>
+                <div class="language">
+                    <button class="language__btn">English</button>
+                    <div class="language__dropdown">
+                        <div class="language__wrapper">
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">English</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">Arabic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="menu-mob__socials">
+					<p>Follow us on social media</p>
+					<div class="menu-mob__socials-links">
+						<a href="#"><img src="img/fb-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/inst-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/tw-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/in-blue.svg" alt="social"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h1 class="title">Our Story</h1>
+                <p class="text">The cofounders are two energy and technology enthusiasts who met and have decided to innovate. Driven by the passion to be entrepreneurs in a constantly developing world, they spend countless hours on brainstorming their ideas about the future of the electricity sector, Engineering, Technology and Sustainability. The team is growing as well as its outreach by partnering up with the pioneers in the market.</p>
+        </section>
+        <section class="stand">	
+            <h2 class="title">We stand for:</h2>
+            <picture>
+                <source srcset='img/about-img-mob.svg' media='(max-width: 768px)'>
+                <source srcset='img/about-img.svg'>
+                <img src="img/about-img.svg"class="stand__img">
+            </picture>
+        </section>
+        <section class="info">
+            <h2 class="title">Queed</h2>
+            <p class="text">is the place where human and machine intelligance aim to seed efficiency and sustainability in the electricity sector.</p>
+        </section>
+        <section class="our">
+            <div class="container">
+                <h2 class="title">Our values/<br>Our DNA</h2>
+                <div class="our__cards">
+                    <div class="our__card">
+                        <img src="img/about-card-1.svg" alt="icon" class="our__card-icon">
+                        <div class="our__card-title">Focus</div>
+                        <p class="our__card-text">The future of the electricity sector is our main focus. The sustainable development in this sector is deeply embedded into our mindset driving us to deliver on efficently on time, cost and quality.</p>
+                    </div>
+                    <div class="our__card">
+                        <img src="img/about-card-2.svg" alt="icon" class="our__card-icon">
+                        <div class="our__card-title">Creativity</div>
+                        <p class="our__card-text">We are a diverse tem of professionals who “shoot for the stars”, are commited to bold objectives, take initiatives and see change as an opportunity. Creativity to us means to have courage, be passionate, look out of the box and continually improve the work that we do.</p>
+                    </div>
+                    <div class="our__card">
+                        <img src="img/about-card-3.svg" alt="icon" class="our__card-icon">
+                        <div class="our__card-title">Team Spirit</div>
+                        <p class="our__card-text">We are extremly proud of the rich professional background of our team members and at the same time we strongly believe in the galactic power of team work.</p>
+                    </div>
+                    <div class="our__card">
+                        <img src="img/about-card-4.svg" alt="icon" class="our__card-icon">
+                        <div class="our__card-title">Respect</div>
+                        <p class="our__card-text">Mutual respect guides our daily work. We respect ourselves and our partners, and communicate in a transparent way. “Treat each other, in the same considerate you would wish to be treated yourself”.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class='footer'>
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/logo.svg" alt="" class="logo">
+                <p>Machine empowered solution</p>
+            </div>
+            <div class="footer__socials">
+                <p>Follow us on social media</p>
+                <div class="footer__socials-links">
+                    <a href="#"><img src="img/fb-blue.svg" alt="social"></a>
+                    <a href="#"><img src="img/inst-blue.svg" alt="social"></a>
+                    <a href="#"><img src="img/tw-blue.svg" alt="social"></a>
+                    <a href="#"><img src="img/in-blue.svg" alt="social"></a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <a href="#">Rules for using the resource</a>
+                <a href="#">Privacy policy</a>
+            </div>
+        </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>

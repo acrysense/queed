@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="32" fill="white"/>
+<rect opacity="0.6" width="11.4545" height="19.0909" rx="5.72727" transform="matrix(-0.707107 0.707107 0.707107 0.707107 20.8984 12.7969)" fill="#FFBE3D"/>
+<rect opacity="0.4" x="10.7949" y="37.5195" width="11.4545" height="19.0909" rx="5.72727" transform="rotate(-90 10.7949 37.5195)" fill="#FFBE3D"/>
+<rect opacity="0.2" x="20.8984" y="50.625" width="11.4545" height="19.0909" rx="5.72727" transform="rotate(-135 20.8984 50.625)" fill="#FFBE3D"/>
+<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M26.0684 39.4304C26.0684 36.2673 28.6325 33.7031 31.7956 33.7031V33.7031C34.9587 33.7031 37.5229 36.2673 37.5229 39.4304V47.0668C37.5229 50.2298 34.9587 52.794 31.7956 52.794V52.794C28.6325 52.794 26.0684 50.2298 26.0684 47.0668V39.4304Z" fill="#FFBE3D"/>
+<rect opacity="0.6" width="11.4545" height="19.0909" rx="5.72727" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 42.7168 50.625)" fill="#FFBE3D"/>
+<rect x="42.7168" y="12.7969" width="11.4545" height="19.0909" rx="5.72727" transform="rotate(45 42.7168 12.7969)" fill="#FFBE3D"/>
+<rect opacity="0.8" x="26.0674" y="10.793" width="11.4545" height="19.0909" rx="5.72727" fill="#FFBE3D"/>
+<rect opacity="0.8" x="52.7949" y="26.0664" width="11.4545" height="19.0909" rx="5.72727" transform="rotate(90 52.7949 26.0664)" fill="#FFBE3D"/>
+</svg>

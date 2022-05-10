@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Queed</title>
+	<link rel="icon" href="img/favicon.svg" type="image/svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css?v=92">
+</head>
+<body>
+	<header class='header'>
+		<div class="container">
+			<a href="/">
+				<img src="img/logo.svg" alt="logo" class="header__logo">
+			</a>
+            <div class="header__wrapper">
+                <ul class="menu">
+                    <li class="menu__item"><a href="about.html">About</a></li>
+                    <li class="menu__item"><a href="tech.html">Technology</a></li>
+                    <li class="menu__item"><a href="#">Story & Mission</a></li>
+                    <li class="menu__item"><a href="#">Contact</a></li>
+                </ul>
+                <div class="language language--desktop">
+                    <button class="language__btn">English</button>
+                    <div class="language__dropdown">
+                        <div class="language__wrapper">
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">English</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">Arabic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<img src="img/burger.svg" alt="burger" onclick="menuMove()" class="header__burger">
+			<div class="menu-mob">
+				<div class="menu-mob__top">
+					<a href="/">
+						<img src="img/logo.svg" alt="logo" class="menu-mob__logo">
+					</a>
+					<img src="img/close.svg" alt="logo" class="menu-mob__close" onclick="menuMove()">
+				</div>
+				<ul class="menu-mob__menu">
+					<li class="menu-mob__item"><a href="about.html">About</a></li>
+					<li class="menu-mob__item"><a href="tech.html">Technology</a></li>
+					<li class="menu-mob__item"><a href="#">Story & Mission</a></li>
+					<li class="menu-mob__item"><a href="#">Contact</a></li>
+				</ul>
+                <div class="language">
+                    <button class="language__btn">English</button>
+                    <div class="language__dropdown">
+                        <div class="language__wrapper">
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">English</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">Arabic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="menu-mob__socials">
+					<p>Follow us on social media</p>
+					<div class="menu-mob__socials-links">
+						<a href="#"><img src="img/fb-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/inst-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/tw-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/in-blue.svg" alt="social"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="main" style="background-image: url(img/main-bg.jpg);">
+			<div class="container">
+				<div class="main__content">
+					<h1 class="main__title">The App<br>To Save Electricity</h1>
+                    <div class="main__icon">
+                        <p>control where you are not</p>
+                        <div class="icons">
+                            <img src="img/icon-1.svg" alt="icon" class="icon">
+                            <img src="img/icon-2.svg" alt="icon" class="icon">
+                            <img src="img/icon-3.svg" alt="icon" class="icon">
+                            <img src="img/icon-4.svg" alt="icon" class="icon">
+                            <img src="img/icon-5.svg" alt="icon" class="icon">
+                        </div>
+                    </div>
+				</div>
+				<img src="img/main-img-mobile.png" alt="main" class="main__img">
+				<div class="main__icon main__icon--mobile">
+			     	<p>control where you are not</p>
+			     	<div class="icons">
+			     		<img src="img/icon-1.svg" alt="icon" class="icon">
+			     		<img src="img/icon-2.svg" alt="icon" class="icon">
+			     		<img src="img/icon-3.svg" alt="icon" class="icon">
+			     		<img src="img/icon-4.svg" alt="icon" class="icon">
+			     		<img src="img/icon-5.svg" alt="icon" class="icon">
+			     	</div>
+			     </div>
+			</div>
+		</section>
+		<section class="bundle">
+			<div class="container">
+				<h2 class="title">App bundles</h2>
+				<p class="text">Saving electicity through varios levels and with it reduting the electricity bill.</p>
+				<div class="cards">
+					<div class="card">
+						<div class="card__title">Queed basic</div>
+                        <div class="card__info" style="background-image: url(img/bundle-01.png);">
+                            <div class="card__info-inner">
+                                <h4 class="card__subtitle">Tools</h4>
+                                <ul class="card__list">
+                                    <li class="card__item">
+                                        <span class="card__elem">Consumption</span>
+                                    </li>
+                                    <li class="card__item">
+                                        <span class="card__elem">Feedback</span>
+                                    </li>
+                                    <li class="card__item">
+                                        <span class="card__elem">Summary</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="card__text">Various tools and techniques in displaying electricity consumption through integrating with the smart meter.</p>
+					</div>
+					<div class="card">
+						<div class="card__title">Queed plus</div>
+                        <div class="card__info" style="background-image: url(img/bundle-02.png);">
+                            <div class="card__info-inner">
+                                <h4 class="card__subtitle">Inspection</h4>
+                                <ul class="card__list">
+                                    <li class="card__item">
+                                        <span class="card__elem">Inspect</span>
+                                    </li>
+                                    <li class="card__item">
+                                        <span class="card__elem">Efficient</span>
+                                    </li>
+                                    <li class="card__item">
+                                        <span class="card__elem">Summary</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="card__text">Providing efficiency analysis to the structure of the household and tips for improving the structure.</p>
+					</div>
+					<div class="card">
+						<div class="card__title">Queed premium</div>
+                        <div class="card__info" style="background-image: url(img/bundle-03.png);">
+                            <div class="card__info-inner">
+                                <h4 class="card__subtitle">Artificial Intelligence</h4>
+                                <ul class="card__list">
+                                    <li class="card__item">
+                                        <span class="card__elem">Analyze</span>
+                                    </li>
+                                    <li class="card__item">
+                                        <span class="card__elem">Solution</span>
+                                    </li>
+                                    <li class="card__item">
+                                        <span class="card__elem">AI</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="card__text">Determine the energy consumption and the efficiency status of the appliances in the household through monitoring the data of the smart meter.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form-section">
+			<div class="container">
+				<form class="form">
+					<h2 class="form__title">Do you want to reduce your energy consumption?</h2>
+					<p class="form__text">Please leave us your contact details and get your promo %</p>
+				 <div class="form__inputs">
+				 		<input type="text" class="form__input" placeholder="first name">
+				 		<input type="text" class="form__input" placeholder="city of residents">
+				 		<input type="text" class="form__input" placeholder="surname">
+				 		<input type="email" class="form__input" placeholder="email">
+				 	</div>	
+				 	<p class="form__subtitle">By filling out the form, you agree to the processing of personal data and the terms of the site. <a href='#'>More details</a></p>
+				 	<button class="form__btn" type="submit">send</button>
+				</form>
+				<img src="img/form-img.png" alt="" class="form-section__img">
+			</div>
+		</section>
+		<div class="comming">Coming soon!</div>
+	</main>
+	<footer class='footer'>
+		<div class="container">
+			<div class="footer__logo">
+				<img src="img/logo.svg" alt="" class="logo">
+				<p>Machine empowered solution</p>
+			</div>
+			<div class="footer__socials">
+				<p>Follow us on social media</p>
+				<div class="footer__socials-links">
+					<a href="#"><img src="img/fb-blue.svg" alt="social"></a>
+					<a href="#"><img src="img/inst-blue.svg" alt="social"></a>
+					<a href="#"><img src="img/tw-blue.svg" alt="social"></a>
+					<a href="#"><img src="img/in-blue.svg" alt="social"></a>
+				</div>
+			</div>
+			<div class="footer__links">
+				<a href="#">Rules for using the resource</a>
+				<a href="#">Privacy policy</a>
+			</div>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Queed</title>
+	<link rel="icon" href="img/favicon.svg" type="image/svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css?v=52">
+</head>
+<body>
+	<header class='header'>
+		<div class="container">
+			<a href="/">
+				<img src="img/logo.svg" alt="logo" class="header__logo">
+			</a>
+            <div class="header__wrapper">
+                <ul class="menu">
+                    <li class="menu__item"><a href="about.html">About</a></li>
+                    <li class="menu__item"><a href="tech.html">Technology</a></li>
+                    <li class="menu__item"><a href="#">Story & Mission</a></li>
+                    <li class="menu__item"><a href="#">Contact</a></li>
+                </ul>
+                <div class="language language--desktop">
+                    <button class="language__btn">English</button>
+                    <div class="language__dropdown">
+                        <div class="language__wrapper">
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">English</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">Arabic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<img src="img/burger.svg" alt="burger" onclick="menuMove()" class="header__burger">
+			<div class="menu-mob">
+				<div class="menu-mob__top">
+					<a href="/">
+						<img src="img/logo.svg" alt="logo" class="menu-mob__logo">
+					</a>
+					<img src="img/close.svg" alt="logo" class="menu-mob__close" onclick="menuMove()">
+				</div>
+				<ul class="menu-mob__menu">
+					<li class="menu-mob__item"><a href="about.html">About</a></li>
+					<li class="menu-mob__item"><a href="tech.html">Technology</a></li>
+					<li class="menu-mob__item"><a href="#">Story & Mission</a></li>
+					<li class="menu-mob__item"><a href="#">Contact</a></li>
+				</ul>
+                <div class="language">
+                    <button class="language__btn">English</button>
+                    <div class="language__dropdown">
+                        <div class="language__wrapper">
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">English</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#" class="language__elem">Arabic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="menu-mob__socials">
+					<p>Follow us on social media</p>
+					<div class="menu-mob__socials-links">
+						<a href="#"><img src="img/fb-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/inst-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/tw-blue.svg" alt="social"></a>
+						<a href="#"><img src="img/in-blue.svg" alt="social"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="tech">	
+			<div class="container">
+            <h1 class="title">Inspiration/<br>Resources</h1>	
+            <img src="img/tech-img.png" class='tech__img'>
+            <div class="tech__group">
+                <div class="tech__item">
+                    <div class="tech__title">King Fahd University of Petroleum and Minerals (KFUPM): </div>
+                    <p class="tech__text">The teachings and resources given by KFUPM enrich and endorse the engineering mindset as well as the efficient technical applications.</p>
+                </div>
+                <div class="tech__item">
+                    <div class="tech__title">Ruhr University Bochum (RUB): </div>
+                    <p class="tech__text">The RUB encourages highly thinking and innovating freely and without boundaries with a teaching staff that always supports any creative thinking.</p>
+                </div>
+                <div class="tech__item">
+                    <div class="tech__title">Saudi Building Code (SBC): </div>
+                    <p class="tech__text">There are codes which are designed and developed by the community to emphasize the energy efficiency practices according to the environment of Saudi Arabia.</p>
+                </div>
+                <div class="tech__item">
+                    <div class="tech__title">Association of Energy Engineers (AEE):</div>
+                    <p class="tech__text">The AEE has developed and adapted the energy efficiency practices and provide certifications to audit and monitor the energy consumption by emphasizing the ASHRAE procedures.</p>
+                </div>
+                <div class="tech__item">
+                    <div class="tech__title">Leadership in Environmental and Electrical Design (LEED):</div>
+                    <p class="tech__text">The LEED supports and endorses practices which are in alignment to being environment-friendly and energy efficient.</p>
+                </div>
+            </div>
+		</section>	
+		<section class="method">
+			<div class="container">
+				<h2 class="title">Methodology</h2>
+				<div class="method__cards">
+					<div class="method__card">
+						<div class="method__card-title">Benchmarking and Baseline: </div>
+						<p class="method__card-text">It is a method in comparing the actual to the optimal electricity consumption. Each household is tailored automatically with different benchmark/baseline depending on the house’s design and conditions. </p>
+					</div>
+					<div class="method__card">
+						<div class="method__card-title">Inspection: </div>
+						<p class="method__card-text">An inspection to the elements affecting the electricity consumption will be conducted along with highlighting the saving potential. The recommended material along with the payback period will be also provided.</p>
+					</div>
+					<div class="method__card">
+						<div class="method__card-title">Efficiency-driven analysis: </div>
+						<p class="method__card-text">The data to the overall electricity consumption will be analyzed and the user will receive a feedback on whether the consumption is efficient. The energy consumed along with the cost will be determined to the user.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class='footer'>
+		<div class="container">
+			<div class="footer__logo">
+				<img src="img/logo.svg" alt="" class="logo">
+				<p>Machine empowered solution</p>
+			</div>
+			<div class="footer__socials">
+				<p>Follow us on social media</p>
+				<div class="footer__socials-links">
+					<a href="#"><img src="img/fb-blue.svg" alt="social"></a>
+					<a href="#"><img src="img/inst-blue.svg" alt="social"></a>
+					<a href="#"><img src="img/tw-blue.svg" alt="social"></a>
+					<a href="#"><img src="img/in-blue.svg" alt="social"></a>
+				</div>
+			</div>
+			<div class="footer__links">
+				<a href="#">Rules for using the resource</a>
+				<a href="#">Privacy policy</a>
+			</div>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
